@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/iaExercise.iml" filepath="$PROJECT_DIR$/.idea/iaExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IAenv.iml" filepath="$PROJECT_DIR$/.idea/IAenv.iml" />
     </modules>
   </component>
 </project>
