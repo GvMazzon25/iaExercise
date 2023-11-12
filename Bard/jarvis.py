@@ -23,12 +23,13 @@ def loop():
         with sr.Microphone() as source:
             recognizer = sr.Recognizer()
             audio = recognizer.listen(source)
-
         try:
             transcription = recognizer.recognize_google(audio)
             if transcription.lower() == "jarvis":
                 filename = "input.wav"
-                print("Say your question...")
+                response = bc('Hello')
+                complresp = response + ' Whats your question?'
+                speak_text(response)
                 with sr.Microphone() as source:
                     recognizer = sr.Recognizer()
                     source.pause_threshold = 1
