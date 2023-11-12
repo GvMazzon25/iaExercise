@@ -29,7 +29,7 @@ def loop():
                 filename = "input.wav"
                 response = bc('Hello')
                 complresp = response + ' Whats your question?'
-                speak_text(response)
+                speak_text(complresp)
                 with sr.Microphone() as source:
                     recognizer = sr.Recognizer()
                     source.pause_threshold = 1
