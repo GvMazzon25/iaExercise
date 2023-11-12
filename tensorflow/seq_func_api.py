@@ -27,5 +27,5 @@ model = keras.Sequential(
 )
 
 model.compile(
-    loss= keras.losses.
+    loss= keras.losses.SparseCategoricalCrossentropy(from_logits=True)
 )
